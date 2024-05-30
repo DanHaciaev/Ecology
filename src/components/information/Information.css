@@ -1,0 +1,38 @@
+.Information {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    background-image: url('/public/listva-1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.rules{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 50vw;
+}
+
+.rules p{
+    font-size: 24px;
+    font-weight: bold;
+    color: chartreuse;
+}
+
+.Information ul{
+    width: 400px;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}

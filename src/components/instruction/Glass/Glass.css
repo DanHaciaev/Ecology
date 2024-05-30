@@ -1,0 +1,80 @@
+.Glass {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    background-image: url('/public/listva-1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffff;
+    padding-top: 50px;
+}
+
+.Glass p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    color: #7ed957;
+    text-shadow: 0 0 5px #353535;
+    text-align: center;
+}
+
+
+.green_container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 50vw;
+    padding-top: 120px;
+    margin: auto;
+}
+
+.green_container img {
+    width: 250px;
+    height: 350px;
+    margin-right: 5vw;
+}
+
+.green_photo p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.green_photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.photo_glass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7ed957b7;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.photo_glass img {
+    padding-top: 8px;
+    padding-left: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.photo_glass p {
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+    font-size: 16px;
+}

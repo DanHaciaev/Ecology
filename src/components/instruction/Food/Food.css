@@ -1,0 +1,80 @@
+.Food {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    background-image: url('/public/listva-1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffff;
+    padding-top: 50px;
+}
+
+.Food p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    color: #424242;
+    text-shadow: 0 0 5px #928a8a;
+    text-align: center;
+}
+
+
+.black_container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 50vw;
+    padding-top: 120px;
+    margin: auto;
+}
+
+.black_container img {
+    width: 250px;
+    height: 350px;
+    margin-right: 5vw;
+}
+
+.black_photo p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.black_photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.photo_food {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #424242b7;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.photo_food img {
+    padding-top: 8px;
+    padding-left: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.photo_food p {
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+    font-size: 16px;
+}

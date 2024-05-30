@@ -1,0 +1,119 @@
+.Game {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    background-image: url('/public/listva-2.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startDrag {
+    width: 180px;
+    height: 200px;
+    margin-left: calc((100vw - 200px) / 2);
+}
+
+.endDrag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.score {
+    color: white;
+    transform: translate(90vw, -30vh);
+}
+
+.mistake {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    color: white;
+    padding: 10px 20px;
+    font-size: 24px;
+}
+
+.mistakepa {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 10px;
+    color: #f9eede;
+    font-weight: bold;
+    background-color: red;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.mistakepa a {
+    text-decoration: none;
+}
+
+.Game.error {
+    opacity: 0.5;
+}
+
+.success {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    color: white;
+    padding: 10px 20px;
+    font-size: 24px;
+}
+
+.success p {
+    margin-top: 10px;
+    background-color: green;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.Game.correct {
+    opacity: 0.5;
+}
+
+.trash-img {
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+}
+
+.trash {
+    width: 180px;
+    height: 2px;
+}
+
+.dragged {
+    opacity: 0.8;
+}
+
+.dragging {
+    transform: scale(1.05);
+}
