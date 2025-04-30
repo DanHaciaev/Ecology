@@ -29,3 +29,9 @@ This application was created to help all inhabitants of our planet Earth learn m
 
 6. In the case of a successful attempt, after completing 10 steps, a message will appear stating that all trash has been successfully moved into the bins.
 ![alt text](./Examples/Success.png)
+
+---
+
+## 🔗 Live Demo
+
+[Click here to try the app](https://ecology-gilt.vercel.app/)
